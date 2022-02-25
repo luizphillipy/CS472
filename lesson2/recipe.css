@@ -5,19 +5,19 @@ h1, h2,h3,h4,h5,h6{
     text-decoration: underline;
 }
 h1{
-    size: 22px;
+    resize: 22px;
     text-align: center;
 
 }
 h2{
     text-align: left;
-    size: 18px;
+    resize: 18px;
     
 }
 body{
     background-color: white;
     color: #404040;
-    size: 11px;
+    resize: 11px;
     font-family: Georgia, 'Garamond', serif;
 }
 :any-link{
