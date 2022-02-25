@@ -23,15 +23,24 @@ img{
 body{
     background-color: azure;
 }
-li{
+ul >li{
     list-style-type: square;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+ol>li{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 p{
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p::first-letter{
     text-transform: capitalize;
+}
+dl>dt{
+    color: blueviolet;
+    
 }
