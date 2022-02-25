@@ -24,6 +24,9 @@ body{
 :any-link{
     color: #A4A400 ;
 }
+li{
+    list-style-image: url(../images/recipeImages/pie_bullet.png)
+}
 ul.header{
     list-style: none;
     margin: 0px;
