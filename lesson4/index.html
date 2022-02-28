@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <h1>My Example of HTML form</h1>
+        <form method="get" action="formprocessor.html">
+            <fieldset>
+                <legend>Student Information</legend>
+                <div>
+                    <input type="hidden" name="data_id" value="123">
+                </div>
+            <div>
+                <label for="studentId">Student Id</label>
+            </div>
+            <div>
+                <input autofocus name="studentId" type="text" id="studentId" required>
+            </div>
+            <div>
+                <label for="fullName">Full Name</label>
+            </div>
+            <div>
+                <input name="fullName" type="text" id="fullName" required>
+            </div>
+            <div>
+                <label for="desc">About Me</label>
+            </div>
+            <div>
+                <textarea name="desc" type="text" id="desc" required cols="24" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]" title="Must be numbers!">
+            </div>
+        </fieldset>
+        <fieldset>
+             <legend>Academic Information:</legend>   
+        
+            <div>
+                Favorite Courses:
+            </div>
+            <div>
+                <label for="favcourses1">
+                    <input type="checkbox" name="favcourses1" id="favcourses1">Course 1</form>
+                </label>
+             </div>
+             <div>
+                <label for="favcourses2">
+                    <input type="checkbox" name="favcourses2" id="favcourses2">Course 2</form>
+                 </label>
+            </div>
+            <div>
+                <label for="favcourses3">
+                    <input type="checkbox" name="favcourses3" id="favcourses3">Course 3</form>
+                 </label>
+            </div>
+            <div>
+                Graduation Status:
+            </div>
+            <div>
+                <label for="highscholl">
+                    <input type="radio" name="levelstudy" id="highscholl" value="highscholl">highscholl</form>
+                </label>
+             </div>
+             <div>
+                <label for="Graduation">
+                    <input type="radio" name="levelstudy" id="Graduation">Graduation</form>
+                 </label>
+            </div>
+            <div>
+                
+                    <label for="semester">Semester</label>
+                
+                <select multiple name="semester" id="semester">
+                    <optgroup label="Fast">
+                    <option value="spring">Spring</option>
+                    <option value="summer">Summer</option>
+                </optgroup>
+                <optgroup label="Slow">
+                    <option selected value="fall">Fall</option>
+                    <option value="winter">Winter</option>
+                </optgroup>
+                </select>
+            </fieldset>
+            </div>
+            
+                <input type="submit" value="Submit">
+                <input type="button" value="Buttom">
+                <input type="reset" value="Reset"/>
+        
+        </form>
+    </main>
+</body>
+</html>

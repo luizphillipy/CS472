@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <h1>My Example HTML Form</h1>
+        <form method="get" action="formprocessor.html">
+            <div>
+                <label for="studentId">Student ID</label>
+            </div>
+            <div>
+                <input name="studentId" id="studentId" type="text" required >
+            </div>
+            <div>
+                <label for="fullname" >Full Name</label>
+            </div>
+            <div>
+                <input name="fullname" id="fullname" type="text" required>
+            </div>
+            <div>
+                <label for="phone" >Phone </label>
+            </div>
+            <div>
+                <input name="phone"  id="phone" type="tel" required>
+            </div>
+            <div>
+                <label for="description">About me</label>
+            </div>
+            <div>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                Favorite Courses:
+            </div>
+            <div>
+                <label for="favcourse1"> 
+                    <input type="checkbox" name="favcourse1" id="favcourse1">Course 1
+                </label>
+            </div>
+            <div>
+                <label for="favcourse2"> 
+                    <input type="checkbox" name="favcourse2" id="favcourse2">Course 2
+                </label>
+            </div>
+            <div>
+                <label for="favcourse3"> 
+                    <input type="checkbox" name="favcourse3" id="favcourse3">Course 3
+                </label>
+            </div>
+            <div>
+                Level of Study
+            </div>
+            <div>
+                <label for="levelstudy1"> 
+                    <input type="radio" name="levelstudy" id="levelstudy1">Graduate
+                </label>
+            </div>
+            <div>
+                <label for="favcourse2"> 
+                    <input type="radio" name="levelstudy" id="levelstudy2">Undergraduate
+                </label>
+            </div>
+            <div>
+                <label for="semester">Semester</label>
+            </div>
+            <div>
+                <select name="semester" id="semester">
+                    <option value="spring">Spring</option>
+                    <option value="summer">Summer</option>
+                    <option value="fall">Fall</option>
+                    <option value="winter">Winter</option>
+                </select>
+            </div>
+
+            <input type="submit" value="Submit">
+            <input type="button" value="Button">
+            <input type="reset" value="Reset">
+
+        </form>
+    </main>
+</body>
+</html>
