@@ -8,6 +8,10 @@ function max(num1, num2){
     return num2;
     }
 }
+//alternative - use ternary 
+//fuction max(a,b){
+ //   return (a>b?a:b);
+
 console.log("----------------Exercise 1--------------")
 console.log(max(3,5));
 
@@ -23,6 +27,12 @@ function maxOfThree(num1, num2, num3){
     }
     return max;
 } 
+
+//alternative - use ternary 
+//function maxOfThree(){
+//    return (a>b)? ((a>c))? a:c): 
+//}
+
 console.log("----------------Exercise 2--------------")
 console.log(maxOfThree(8,4,5));
 
@@ -180,6 +190,9 @@ sumNumbersFnc([1,2,3,4,5]);
 //should return 12. (Note: Do not use sorting!)
 
 function findSecondBiggest(numbers){
+    if(numbers.length<2){
+        throw new Error("invalid number of arguments.")
+    }
     let bigest = 0;
     let second = 0;
     for (let i =0; i<numbers.length;i++){
@@ -192,6 +205,8 @@ function findSecondBiggest(numbers){
         };
     }
     return console.log(second);
+
+    //let bigest = ()
 }
 console.log("--------------------Exercise 12--------------------")
 findSecondBiggest([1,2,3,4,5]);

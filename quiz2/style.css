@@ -1,0 +1,17 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    border: solid;
+    
+}
+td{
+    padding: 10px 10px 10px;
+    border: solid
+}
+td.aligncenter{
+    font-weight: bold;
+    text-align: center;
+    border: solid;
+    
+}

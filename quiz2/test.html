@@ -1,0 +1,20 @@
+x=10;
+var a=50;
+var b=100;
+var c = function(a,b,c){
+    document.write(x+"<br>");
+    document.write(a+"<br>");
+    var f = function(a,b,c){
+        b=a;
+        document.write(b+"<br>");
+        b=c;
+        var x = 15;
+    }
+    f(a,b,c);
+    document.write(b+"<br>");
+    var x =100;
+
+}
+c(18,19,100);
+document.write(b+"<br>");
+document.write(x+"<br>");

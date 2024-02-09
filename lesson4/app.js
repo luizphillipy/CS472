@@ -1,11 +1,21 @@
 
-var mouseClick = document.getElementById("bnt-submit");
+// var mouseClick = document.getElementById("bnt-submit");
     
-mouseClick.addEventListener('click',function(event){
+// mouseClick.addEventListener('click',function(event){
+//     event.preventDefault();
+//     console.log(document.getElementById("email").value);
+//     console.log(document.getElementById("password").value);
+// });
+
+const loginForm = document.getElementById("loginForm");
+loginForm.addEventListener("submit",printFormData);
+function printFormData(event){
     event.preventDefault();
-    console.log(document.getElementById("email").value);
-    console.log(document.getElementById("password").value);
-});
+    const email = document.getElementById("email");
+    const password = document.getElementById("password");
+    console.log(email.value);
+    console.log(password.value);
+}
 
 
 
